@@ -112,7 +112,7 @@
 
 
 - name: Configure instance
-  hosts: aplication
+  hosts: application
   become: yes
   gather_facts: True
 
