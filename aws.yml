@@ -67,7 +67,7 @@
         timeout: 320
       loop: 
         "{{ ec2_builder.instances }}"
-      : "{{ ec2_aplication.instances }}"
+        "{{ ec2_aplication.instances }}"
 
 
 
